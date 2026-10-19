@@ -137,6 +137,12 @@ main>section
     line-height: 1.6rem;
     
 }
+
+/* Some Facts Style */
+.section-title
+{
+    
+}
 /* Responsive Small Device */
 @media screen and (max-width:700px) {
     .navbar, 
