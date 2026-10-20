@@ -98,6 +98,7 @@ main>section
     width: 100%;
 }
 
+
 /* Team and Feature Related */
 .teams
 {
@@ -138,12 +139,30 @@ main>section
     
 }
 
-/* Some Facts Style */
-.section-title
+/* Features Section related style */
+.features
 {
-
+    gap: 140px;
 }
-
+#features-section-title
+{
+    border-left: 5px solid #FF900E;
+    padding: 21px;  
+}
+.features-card
+{
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    border: 8px;
+    margin-bottom: 20px;
+}
+.features-card .features-title
+{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 /* Fact Card */
 .fact-container
